@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+	<head>
+		<title>{{ .Title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Consolas ">
+		<script src="https://use.fontawesome.com/4519a4a646.js"></script>
+	</head>
+	<body style='font-family="Consolas"'>
+
+		<!-- Header -->
+			<div id="header" style="background-color:#002b36">
+				<div class="top">
+					<!-- Logo -->
+						<div id="logo">
+							<h1 id="title"><span style='color:#859900'>Jared</span> <span style='color:#268bd2'> Fernandez</span></h1>
+							<p>{{ .Site.Params.tag }}</p>
+						</div>
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#AboutMe" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-id-card">About Me</span></a></li>
+								<li><a href="#experience" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-book">Experience</span></a></li>
+								<li><a href="#projects" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-code">Projects</span></a></li>
+								<li><a href="#etc" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-commenting">etc.</span></a></li>
+							</ul>
+						</nav>
+				</div>
+				<div class="bottom">
+					<!-- Social Icons -->
+						<ul class="icons">
+              {{ range .Site.Params.social }}
+              <li><a href="{{ .link }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+              {{ end }}
+						</ul>
+				</div>
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="AboutMe" class="one dark" >
+						<div class="container" style="min-height: 80vh; text-align:left; padding-top: 5vh">
+							<h2 style = "color:#b58900">About Me </h2>
+							<h4>
+								{{markdownify .Site.Params.description}}
+							</h4>
+
+						</div>
+					</section>
+
+				<!-- Experience -->
+					<section id="experience" class="two">
+						<div class="container">
+							<h3><u style = "color:#dc322f">Experience</u></h3>
+							{{range .Site.Params.experience}}
+						<h4>
+							> {{ markdownify .position }}, {{ .employer }}
+							{{ if .time }}<span style="float:right;">{{ .time }}</span> {{ end }}
+						</h4>
+						<h5 style="padding-left:5vh">
+								{{ if .tag }}<i>{{ markdownify .tag }}</i> </br> {{end}} </h5>
+						<h6 style="padding-left:5vh">
+								{{markdownify .description }}</br>
+							{{ if .skills }}
+
+							{{ end }}
+							{{ if or (.file_attachment) (or (.link_attachment) (.code_attachment))}}
+							<b>Links</b>: &emsp;
+							{{ if .file_attachment }}
+							<a class="icon pages-icon" href="{{ .file_attachment }}" rel="prev">
+					        <i class="fa fa-file-text"></i> {{ .file_name }}
+					    </a> &emsp;
+							{{end}}
+							{{ if .link_attachment }}
+							<a class="icon pages-icon" href="{{ .link_attachment }}" rel="prev">
+									<i class="fa fa-link"></i> {{ .link_name }}
+							</a> &emsp;
+							{{end}}
+							{{ if .code_attachment }}
+							<a class="icon pages-icon" href="{{ .code_attachment }}" rel="prev">
+									<i class="fa fa-code-fork"></i> {{ .code_name }}
+							</a> &emsp;
+							{{end}}
+						</br>
+							{{end}}
+						</br></h6>
+							{{end}}
+
+						</div>
+					</section>
+
+				<!-- Projects -->
+				<section id="projects" class="three">
+					<div class="container">
+						<h3><u style = "color:#d33682">Projects</u></h3>
+						{{range .Site.Params.project}}
+						<h4>> {{ markdownify .name }}{{ if .tag }}, <i>{{ markdownify .tag }}</i>{{end}}
+						{{ if .time }}<span style="float:right;">{{ .time }}</span> {{ end }}</h4>
+						<h6 style="padding-left:5vh">
+							{{markdownify .description }}</br>
+						{{ if or (.file_attachment) (or (.link_attachment) (.code_attachment))}}
+						<b>Links</b>: &emsp;
+
+						{{ if .file_attachment }}
+						 <a class="icon pages-icon" href="{{ .file_attachment }}" rel="prev">
+								<i class="fa fa-file-text"></i> {{ .file_name }}
+						</a> &emsp;
+						{{end}}
+						{{ if .link_attachment }}
+						<a class="icon pages-icon" href="{{ .link_attachment }}" rel="prev">
+								<i class="fa fa-link"></i> {{ .link_name }}
+						</a> &emsp;
+						{{end}}
+						{{ if .code_attachment }}
+						<a class="icon pages-icon" href="{{ .file_attachment }}" rel="prev">
+								<i class="fa fa-code-fork"></i> {{ .code_name }}
+						</a> &emsp;
+						{{end}}
+
+						{{end}}
+					</h6></br>
+						{{end}}
+					</div>
+				</section>
+
+				<section id="etc" class="four">
+					<div class="container">
+						<h3><u style="color:#2aa198">Updates, Thoughts, etc.</u></h3>
+						{{range .Site.Params.etc}}
+					</br><h6>> {{markdownify .description }}
+						{{end}}
+					</h6>
+					</div>
+				</section>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>Last Updated: {{.Site.Params.Lastupdated}}</li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="/js/jquery.min.js"></script>
+			<script src="/js/jquery.scrolly.min.js"></script>
+			<script src="/js/jquery.scrollzer.min.js"></script>
+			<script src="/js/skel.min.js"></script>
+			<script src="/js/util.js"></script>
+			<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
+			<script src="/js/main.js"></script>
+
+	</body>
+</html>
