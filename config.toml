@@ -2,7 +2,7 @@ languageCode = "en-us"
 title = "Jared Fernandez"
 baseurl = "http://jaredfern.github.io/"
 theme = "prologue"
-publishDir="docs"
+publishDir="public"
 
 [params]
   name = "<span style='color:#859900'>Jared</span> <span style='color:#268bd2'> Fernandez</span>"
