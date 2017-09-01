@@ -14,10 +14,15 @@
 		<link rel="stylesheet" href="/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Consolas">
+		<link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+		<style>
+			body {
+				font-family: 'PT Mono', serif;
+			}
+		</style>
 		<script src="https://use.fontawesome.com/4519a4a646.js"></script>
 	</head>
-	<body style='font-family="Consolas"'>
+	<body>
 
 		<!-- Header -->
 			<div id="header" style="background-color:#002b36">
@@ -84,6 +89,11 @@
 					        <i class="fa fa-file-text"></i> {{ .file_name }}
 					    </a> &emsp;
 							{{end}}
+							{{ if .file1_attachment }}
+							<a class="icon pages-icon" href="{{ .file1_attachment }}" rel="prev">
+									<i class="fa fa-file-text"></i> {{ .file1_name }}
+							</a> &emsp;
+							{{end}}
 							{{ if .link_attachment }}
 							<a class="icon pages-icon" href="{{ .link_attachment }}" rel="prev">
 									<i class="fa fa-link"></i> {{ .link_name }}
@@ -125,7 +135,7 @@
 						</a> &emsp;
 						{{end}}
 						{{ if .code_attachment }}
-						<a class="icon pages-icon" href="{{ .file_attachment }}" rel="prev">
+						<a class="icon pages-icon" href="{{ .code_attachment }}" rel="prev">
 								<i class="fa fa-code-fork"></i> {{ .code_name }}
 						</a> &emsp;
 						{{end}}

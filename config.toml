@@ -22,6 +22,8 @@ publishDir="public"
   skills = "Python (word2vec, numpy, sklearn, pandas), SQL, HTML, CSS"
   file_attachment="vecshare.pdf"
   file_name="Paper"
+  file1_attachment="vecshare_poster.pdf"
+  file1_name="Poster"
   code_attachment="https://github.com/JaredFern/VecShare"
   code_name="Github Repo"
 
