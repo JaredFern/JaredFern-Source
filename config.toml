@@ -8,9 +8,9 @@ publishDir="public"
   name = "<span style='color:#859900'>Jared</span> <span style='color:#268bd2'> Fernandez</span>"
   tag = "EECS @ Northwestern"
 
-  description = "I am a Junior at Northwestern University studying [**Electrical Engineering & Computer Science**](https://www.eecs.northwestern.edu/), advised by [**Prof. Doug Downey**](https://www.cs.northwestern.edu/~ddowney/). My current research focuses on methods  of [evaluating](https://jaredfern.github.io/VecShare) and [improving](https://github.com/JaredFern/Feature-Marginals) models for Natural Language Processing. </br></br> My research interests include machine learning and many of its applications: natural language processing, computer vision, and image processing. I'm particularly excited by the generation of new knowledge from unstructured data."
+  description = "I am a Junior at Northwestern University studying [**Electrical Engineering & Computer Science**](https://www.eecs.northwestern.edu/), advised by [**Prof. Doug Downey**](https://www.cs.northwestern.edu/~ddowney/). My current research focuses on methods of [evaluating](https://jaredfern.github.io/VecShare) and [improving](https://github.com/JaredFern/seqmodel) models for Natural Language Processing. </br></br> My academic interests include: machine learning, signal processing, computer vision and natural language processing. I'm particularly excited by the generation of new information from unstructured data."
 
-  lastupdated = "August 26, 2017"
+  lastupdated = "January 18, 2018"
   copyright = "Jared Fernandez"
 
 [[params.experience]]
@@ -18,7 +18,7 @@ publishDir="public"
   employer="Northwestern EECS"
   tag = "Principal Investigator: [Prof. Doug Downey](https://www.cs.northwestern.edu/~ddowney/)"
   time = "January 2017 - Present"
-  description="I developed and co-authored a paper on the VecShare framework for sharing word embedding NLP models over the internet. I am very excited to announce that I will be presenting this work at the upcoming [EMNLP 2017](http://www.emnlp2017.net) conference in Copenhagen, Denmark! </br></br> I am currently investigating how the inclusion of corpus-level statistics (e.g. unigram & bigram frequencies) can improve existing NLP models."
+  description="I developed and co-authored a paper on the VecShare framework for sharing word embeddings online. This work was published in the [Proceedings of EMNLP 2017](http://www.emnlp2017.net) in Copenhagen, Denmark. </br></br> I am currently investigating active learning as a tool for improving deep statistical language models."
   skills = "Python (word2vec, numpy, sklearn, pandas), SQL, HTML, CSS"
   file_attachment="vecshare.pdf"
   file_name="Paper"
@@ -30,9 +30,9 @@ publishDir="public"
 [[params.experience]]
   position="Teaching Assistant"
   employer="Northwestern EECS"
-  time= "March 2017 - Present"
-  tag = "Courses: [EECS 110 (Intro to Programming)](http://www.mccormick.northwestern.edu/eecs/courses/descriptions/110.html), [EECS 348 (Artificial Intelligence)](http://www.mccormick.northwestern.edu/eecs/courses/descriptions/348.html)"
-  description = "I hold weekly office hours, providing assistance on assignments and explanations of course materials."
+  time= "March 2017 - December 2017"
+  tag = "Courses: [EECS 212 (Discrete Math)](http://www.mccormick.northwestern.edu/eecs/courses/descriptions/212.html), [EECS 348 (Artificial Intelligence)](http://www.mccormick.northwestern.edu/eecs/courses/descriptions/348.html)"
+  description = "I held weekly office hours, graded, and provided assistance on assignments and course materials."
   skills = "Python, C"
 
 [[params.experience]]
@@ -43,7 +43,7 @@ publishDir="public"
   skills="Python (numpy)"
 
 [[params.experience]]
-  position="Research Intern"
+  position="Summer Research Intern"
   employer="Stanford Earth"
   tag="Principal Investigator: [Prof. Kim Blisniuk (Cosmogenic Radiation Laboratory)](http://www.sjsu.edu/geology/people/faculty/blisniuk/)"
   time="June 2013 - August 2014"
@@ -56,7 +56,7 @@ publishDir="public"
   description="Check out my Python Library for the VecShare framework! The library supports upload and download of word embeddings to a shared online repository, and provides multiple methods for selecting an accurate embedding for your specific NLP task.</br></br>If you run into any errors while using the library, please file an [issue](https://github.com/JaredFern/VecShare/issues)."
   code_attachment="https://github.com/JaredFern/VecShare/"
   code_name="Github Repo"
-  link_attachment="https://www.vecshare.com"
+  link_attachment="http://www.jaredfern.us/VecShare"
   link_name="Documentation"
   skills = "Python (word2vec, numpy, sklearn, pandas), SQL, HTML, CSS"
 
@@ -73,13 +73,16 @@ publishDir="public"
   description="I am originally from **Sunnyvale, CA** in the **San Francisco Bay Area**. "
 
 [[params.etc]]
+    description="I am excited to be working with **Google** as a **Software Engineering Intern** for Summer 2018."
+
+[[params.etc]]
   description="I am working with the EECS community on campus as External Vice President of [IEEE-NU](http://ieee.northwestern.edu/)."
 
 [[params.etc]]
-  description="Outside of academics my **other interests** include: cooking, hiking, & going to concerts."
+  description="Outside of academics my **other interests** include: cooking, hiking, skiing, & going to concerts."
 
 [[params.etc]]
-  description="I am currently listening to: **Young the Giant**, **BadBadNotGood**, and **Kamasi Washington**."
+  description="I am currently listening to: **Flying Lotus**, **BadBadNotGood**, and **Kamasi Washington**."
 
 [[params.social]]
   medium = "resume"
