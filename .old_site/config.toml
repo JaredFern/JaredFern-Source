@@ -1,0 +1,101 @@
+languageCode = "en-us"
+title = "Jared Fernandez"
+baseurl = "http://jaredfern.github.io/"
+theme = "prologue"
+publishDir="public"
+
+[params]
+  name = "<span style='color:#859900'>Jared</span> <span style='color:#268bd2'> Fernandez</span>"
+  tag = "EECS @ Northwestern"
+
+  description = "I am a senior at Northwestern University studying <a href="https://www.eecs.northwestern.edu/"><strong>Electrical Engineering and Computer Science</strong></a>, advised by <a href="https://www.cs.northwestern.edu/~ddowney/"><strong>Prof. Doug Downey</strong></a> and <a href="http://users.eecs.northwestern.edu/~pappas/"><strong>Prof. Thrasos Pappas</strong></a>. My current research focuses on methods of <a href="https://www.jaredfern.github.io/importance-sampling.pdf"><strong>training</strong></a> language models and developingobjective metrics for determining similarity in visual texture. </br></br> My academic interests broadly include: machine learning, computer vision and natural language processing."
+
+  lastupdated = "October 5, 2018"
+  copyright = "Jared Fernandez"
+
+[[params.experience]]
+  position="**Software Engineering Intern**"
+  employer="Google"
+  tag="Team: Assistant on Android Auto"
+  time="June 2018 - September 2018"
+  description="Improved handling of queries issued to Google Assistant and the Android Google Search App. Designed and implemented visual interfaces to increase discoverability of offline functionality for Google."
+
+
+[[params.experience]]
+  position="**Research Assistant**"
+  employer="Northwestern EECS"
+  tag = "Principal Investigator: [Prof. Doug Downey](https://www.cs.northwestern.edu/~ddowney/)"
+  time = "January 2017 - Present"
+  description="I developed and co-authored a paper on the VecShare framework for sharing word embeddings online. This work was published in the [Proceedings of EMNLP 2017](http://www.emnlp2017.net) in Copenhagen, Denmark. </br></br> I am currently investigating active learning as a tool for improving deep statistical language models."
+  skills = "Python (word2vec, numpy, sklearn, pandas), SQL, HTML, CSS"
+  file_attachment="vecshare.pdf"
+  file_name="Paper"
+  file1_attachment="vecshare_poster.pdf"
+  file1_name="Poster"
+  code_attachment="https://github.com/JaredFern/VecShare"
+  code_name="Github Repo"
+
+[[params.experience]]
+  position="Teaching Assistant"
+  employer="Northwestern EECS"
+  time= "March 2017 - December 2017"
+  tag = "Courses: [EECS 212 (Discrete Math)](http://www.mccormick.northwestern.edu/eecs/courses/descriptions/212.html), [EECS 348 (Artificial Intelligence)](http://www.mccormick.northwestern.edu/eecs/courses/descriptions/348.html)"
+  description = "I held weekly office hours, graded, and provided assistance on assignments and course materials."
+  skills = "Python, C"
+
+[[params.experience]]
+  position="Research Support Intern"
+  employer="SLAC National Laboratory"
+  time="June - August 2015"
+  description="I processed and created visualizations of x-ray diffraction patterns to ease analysis of superconductor experimental data."
+  skills="Python (numpy)"
+
+[[params.experience]]
+  position="Summer Research Intern"
+  employer="Stanford Earth"
+  tag="Principal Investigator: [Prof. Kim Blisniuk (Cosmogenic Radiation Laboratory)](http://www.sjsu.edu/geology/people/faculty/blisniuk/)"
+  time="June 2013 - August 2014"
+  description="I determined slip rates on the San Andreas Fault using Be-isotope dating. I was involved identified field locations for sample collection and isolated quartz samples for mass spectroscopy. I received invitations to present at AGU Fall Conferences (2013, 2014)."
+
+[[params.project]]
+  name="VecShare Python Library"
+  tag=""
+  time="July 2017"
+  description="Check out my Python Library for the VecShare framework! The library supports upload and download of word embeddings to a shared online repository, and provides multiple methods for selecting an accurate embedding for your specific NLP task.</br></br>If you run into any errors while using the library, please file an [issue](https://github.com/JaredFern/VecShare/issues)."
+  code_attachment="https://github.com/JaredFern/VecShare/"
+  code_name="Github Repo"
+  link_attachment="http://www.jaredfern.us/VecShare"
+  link_name="Documentation"
+  skills = "Python (word2vec, numpy, sklearn, pandas), SQL, HTML, CSS"
+
+[[params.etc]]
+  description="I am originally from **Sunnyvale, CA** in the **San Francisco Bay Area**. "
+
+[[params.etc]]
+    description="I am excited to be working with **Google** as a **Software Engineering Intern** for Summer 201."
+
+[[params.etc]]
+  description="I served as External Vice President of [IEEE-NU](http://ieee.northwestern.edu/) where I helped develop our IE3 technical program."
+
+[[params.etc]]
+  description="Outside of academics my **other interests** include: cooking, hiking, skiing, & going to concerts."
+
+[[params.social]]
+  medium = "resume"
+  icon= "file-text"
+  link= "resume.pdf"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "https://www.github.com/JaredFern"
+
+[[params.social]]
+  medium = "linkedin"
+  icon= "linkedin"
+  link= "https://www.linkedin.com/in/fernjared/"
+
+[[params.social]]
+  medium = "email"
+  icon = "envelope"
+  link = "mailto:jared.fern@u.northwestern.edu"

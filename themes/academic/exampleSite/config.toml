@@ -6,10 +6,10 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://jaredfern.github.io"
+baseurl = "/"
 
 # Title of your site
-title = "Jared Fernandez"
+title = "Academic"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -21,6 +21,9 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 paginate = 10
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
@@ -48,17 +51,28 @@ enableGitInfo = false
   # AUTHOR SETUP
 
   # Your details.
-  name = "Jared Fernandez"
-  role = ""
+  name = "Lena Smith"
+  role = "Professor of Artificial Intelligence"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Northwestern University", url = "" } ]
+  organizations = [ { name = "Stanford University", url = "" } ]
 
-  avatar = "profile.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
+  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "jared.fern@u.northwestern.edu"
+  email = "test@example.org"
+  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  phone = "888 888 88 88"
+  skype = "echo123"
+  telegram = ""
+  keybase = ""  # Your keybase.io username.
+
+  # Discussion link (e.g. link to a forum, mailing list, or chat).
+  #   Uncomment line below to use.
+  #   discussion = { name = "Discuss", url = "https://discourse.gohugo.io" }
 
   # Enable/disable map in Contact widget.
   # To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
@@ -75,17 +89,17 @@ enableGitInfo = false
   #   1: Google Maps
   #   2: OpenStreetMap (Mapnik)
   #   3: OpenStreetMap (Mapbox)
-  # map = 0
-  # map_api_key = ""
-  # latitude = "37.4275"
-  # longitude = "-122.1697"
-  # zoom = 15
+  map = 0
+  map_api_key = ""
+  latitude = "37.4275"
+  longitude = "-122.1697"
+  zoom = 15
 
   # SITE SETUP
 
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "grey"
+  color_theme = "default"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
@@ -111,10 +125,10 @@ enableGitInfo = false
   time_format = "3:04 PM"
 
   # Show estimated reading time for posts?
-  reading_time = false
+  reading_time = true
 
   # Display comment count? Requires commenting to be enabled.
-  comment_count = false
+  comment_count = true
 
   # Display next/previous section pager?
   section_pager = false
@@ -226,22 +240,22 @@ enableGitInfo = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fas"
-    link = "mailto:jared.fern@u.northwestern.edu"
+    link = "mailto:test@example.org"
+
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fab"
+    link = "//twitter.com/GeorgeCushen"
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.com/citations?user=CQHpFLIAAAAJ&hl=en"
+    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fab"
-    link = "//github.com/JaredFern"
-
-  [[params.social]]
-    icon = "linkedin"
-    icon_pack = "fab"
-    link = "//linkedin.com/in/fernjared"
+    link = "//github.com/gcushen"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -265,30 +279,35 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications"
+  url = "#publications_selected"
   weight = 2
+
+[[menu.main]]
+  name = "Posts"
+  url = "#posts"
+  weight = 3
 
 [[menu.main]]
   name = "Projects"
   url = "#projects"
-  weight = 3
-
-[[menu.main]]
-  name = "Experience"
-  url = "#experience"
   weight = 4
 
-# [[menu.main]]
-#   name = "Contact"
-#   url = "#contact"
-#   weight = 5
+[[menu.main]]
+  name = "Tutorials"
+  url = "/tutorial/"
+  weight = 5
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 6
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-[[menu.main]]
-    name = "CV"
-    url = "files/resume.pdf"
-    weight = 5  
+# [[menu.main]]
+#    name = "CV"
+#    url = "files/cv.pdf"
+#    weight = 7
 
 # Search.
 [params.search]
