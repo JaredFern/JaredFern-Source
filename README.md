@@ -4,4 +4,5 @@ Mostly markdown, some html partials and css changes, otherwise pretty much defau
 **TODOs:**
  * Add accent colors on hyperlinks
  * Figure out where to add CV
+ * Remove unused autogen pages
  * Parameterize custom CSS modifications
