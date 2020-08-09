@@ -1,4 +1,14 @@
-o -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+#!/bin/bash
+for i in "$@"
+do
+case $i in
+    -m=*|--message=*)
+    MESSAGE="${i#*=}"
+    ;;
+    *)
+    ;;
+esac
+done
 
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
@@ -9,11 +19,7 @@ cd public
 git add .
 
 # Commit changes.
-msg="rebuilding site `date`"
-if [ $# -eq 1 ]
-  then msg="$1"
-fi
-git commit -m "$msg"
+git commit -m "$MESSAGE"
 
 # Push source and build repos.
 git push origin master
@@ -21,6 +27,6 @@ git push origin master
 # Come Back up to the Project Root
 cd ..
 
-git add . 
-git commit -m "$msg"
+git add .
+git commit -m "$MESSAGE"
 git push

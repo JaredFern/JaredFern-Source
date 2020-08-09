@@ -30,7 +30,7 @@ tags:
 featured: true
 
 links:
-url_pdf: https://www.aclweb.org/anthology/W19-2008.pdf
+url_pdf: https://www.aclweb.org/anthology/P18-3002.pdf
 url_poster: 'files/rnnis_poster.pdf'
 # url_project: ''
 # url_slides: ''
