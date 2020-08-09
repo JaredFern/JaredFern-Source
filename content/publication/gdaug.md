@@ -32,7 +32,7 @@ summary: ArXiv Preprint; abs/2004.11546, 2020.
 
 links:
 url_pdf: https://arxiv.org/pdf/2004.11546.pdf
-url_code: 'https://github.com/yangyiben/commonsense-qa'
+# url_code: 'https://github.com/yangyiben/commonsense-qa'
 # url_dataset: '#'
 # url_poster: 'files/codah_poster.pdf'
 # url_project: ''
