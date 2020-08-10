@@ -24,7 +24,7 @@ publication_short:
 abstract:
 
 # Summary. An optional shortened abstract.
-summary: Workshop on Evaluating Vector Space Representations for NLP (RepEval), 2020.
+summary: Workshop on Evaluating Vector Space Representations for NLP (RepEval), 2019.
 
 tags:
 - common sense
