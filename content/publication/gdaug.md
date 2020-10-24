@@ -1,5 +1,5 @@
 ---
-title: "G-DAUG: Generative Data Augmentation for Commonsense Reasoning"
+title: "Generative Data Augmentation for Commonsense Reasoning"
 authors:
 - Yiben Yang
 - Chaitanya Malaviya
@@ -28,7 +28,7 @@ tags:
 publication_types: ["1"]
 
 # Summary. An optional shortened abstract.
-summary: ArXiv Preprint; abs/2004.11546, 2020.
+summary: Findings of EMNLP, 2020.
 
 links:
 url_pdf: https://arxiv.org/pdf/2004.11546.pdf
