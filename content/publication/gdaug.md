@@ -32,10 +32,10 @@ summary: Findings of EMNLP, 2020.
 
 links:
 url_pdf: https://arxiv.org/pdf/2004.11546.pdf
-# url_code: 'https://github.com/yangyiben/commonsense-qa'
+url_code: 'https://github.com/yangyiben/G-DAUG-c-Generative-Data-Augmentation-for-Commonsense-Reasoning'
 # url_dataset: '#'
 # url_poster: 'files/codah_poster.pdf'
-# url_project: ''
+url_project: 'https://gdaugc.apps.allenai.org/'
 # url_slides: ''
 # url_source: '#'
 # url_video: '#'
