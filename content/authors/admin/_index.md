@@ -18,7 +18,7 @@ organizations:
   url: "https://www.lti.cs.cmu.edu"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Jared Fernandez is a doctoral student at CMU LTI interested in multimodal machine ML & NLP.
+bio: PhD student at CMU LTI working on multimodal ML & NLP.
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -55,7 +55,7 @@ user_groups:
 
  I am a first-year doctoral student in the [Language Technologies Institute](https://lti.cs.cmu.edu) at [Carnegie Mellon University](https://cmu.edu) where I am advised by [Yonatan Bisk](https://yonatanbisk.com/) and [Emma Strubell](https://strubell.github.io/).
 
- My research interests are primarily in machine learning and natural language processing. My goal is to build practical and robust systems capable of understanding, reasoning, and interacting with the real world via natural language.
+ My research interests are primarily in machine learning and natural language processing. My goal is to build practical systems able to understand and reason about the world via natural language.
 
  Previously, I received my B.S. in Computer Science and B.S. in Electrical Engineering at [Northwestern University](https://northwestern.edu) where I worked with [Doug Downey](https://users.cs.northwestern.edu/~ddowney/) and [Thrasos Pappas](http://users.eecs.northwestern.edu/~pappas/).  I've also spent time as a Software Engineer at Google.
 
