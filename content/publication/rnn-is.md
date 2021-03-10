@@ -32,6 +32,7 @@ featured: true
 links:
 url_pdf: https://www.aclweb.org/anthology/P18-3002.pdf
 url_poster: 'files/rnnis_poster.pdf'
+url_code: https://github.com/JaredFern/ImportanceSampling
 # url_project: ''
 # url_slides: ''
 # url_source: '#'

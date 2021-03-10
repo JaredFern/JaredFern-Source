@@ -11,10 +11,10 @@
   name = "Publications"
   url = "#publications"
   weight = 40
-[[main]]
-  name = "etc."
-  url = "#posts"
-  weight = 1000
+# [[main]]
+#   name = "etc."
+#   url = "#posts"
+#   weight = 1000
 # Split advice posts and personal posts once enough.
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
