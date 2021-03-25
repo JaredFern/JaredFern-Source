@@ -55,7 +55,7 @@ user_groups:
 
  I am a first-year doctoral student in the [Language Technologies Institute](https://lti.cs.cmu.edu) at [Carnegie Mellon University](https://cmu.edu) where I am advised by [Yonatan Bisk](https://yonatanbisk.com/) and [Emma Strubell](https://strubell.github.io/).
 
- My research interests are primarily in machine learning and natural language processing. My goal is to build practical systems able to understand and reason about the world via natural language.
+ My research interests are primarily in machine learning and natural language processing. My goal is to build practical systems able to understand and reason about the world via natural language. My research is generously supported by the NSF Graduate Research Fellowship.
 
  Previously, I received my B.S. in Computer Science and B.S. in Electrical Engineering at [Northwestern University](https://northwestern.edu) where I worked with [Doug Downey](https://users.cs.northwestern.edu/~ddowney/) and [Thrasos Pappas](http://users.eecs.northwestern.edu/~pappas/).  I've also spent time as a Software Engineer at Google.
 
@@ -64,5 +64,6 @@ user_groups:
 **Email:** `jaredfern [at] cmu.edu`
 
 **News:** <br>
+$\qquad$ [April 2021] $\quad$ Awarded an NSF Graduate Reseach Fellowship! <br/>
 $\qquad$ [Aug. 2020] $\quad$ Starting as a PhD student at Carnegie Mellon University!<br/>
 $\qquad$ [Nov. 2019] $\quad$ Starting fulltime as a Software Engineer at Google!
