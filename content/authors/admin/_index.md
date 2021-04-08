@@ -59,11 +59,11 @@ user_groups:
 
  Previously, I received my B.S. in Computer Science and B.S. in Electrical Engineering at [Northwestern University](https://northwestern.edu) where I worked with [Doug Downey](https://users.cs.northwestern.edu/~ddowney/) and [Thrasos Pappas](http://users.eecs.northwestern.edu/~pappas/).  I've also spent time as a Software Engineer at Google.
 
- Outside of research, I enjoy spending time outdoors hiking, listening to a wide variety of music, trying new restaurants and [playing](https://en.wikipedia.org/wiki/Dominion_(card_game)) [games](https://en.wikipedia.org/wiki/Super_Smash_Bros._Melee).
+Outside of research, I enjoy spending time outdoors, messing around with [dev tools](https://github.com/JaredFern/DotFiles), and [playing](https://en.wikipedia.org/wiki/Dominion_(card_game)) [games](https://en.wikipedia.org/wiki/Super_Smash_Bros._Melee).
 
 **Email:** `jaredfern [at] cmu.edu`
 
 **News:** <br>
-$\qquad$ [April 2021] $\quad$ Awarded an NSF Graduate Reseach Fellowship! <br/>
+$\qquad$ [April 2021] $\quad$ Awarded an NSF Graduate Research Fellowship! <br/>
 $\qquad$ [Aug. 2020] $\quad$ Starting as a PhD student at Carnegie Mellon University!<br/>
 $\qquad$ [Nov. 2019] $\quad$ Starting fulltime as a Software Engineer at Google!
